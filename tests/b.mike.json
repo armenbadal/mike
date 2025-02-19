@@ -1,0 +1,17 @@
+{
+    "project": "b",
+    "files": [
+        "a.tex"
+    ],
+    "rules": [
+        {
+            "goal": "a.pdf",
+            "dependencies": [
+                {
+                    "file": "a.tex"
+                }
+            ],
+            "command": "xetex a.tex -o a.pdf"
+        }
+    ]
+}

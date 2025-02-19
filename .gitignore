@@ -1,0 +1,4 @@
+*.vcxproj.user
+*.vcxproj.filters
+/x64
+/mike/x64
